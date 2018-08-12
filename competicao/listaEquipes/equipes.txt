@@ -1,0 +1,7 @@
+1 : Teste : 0.0 : 0 : 0 : 0.0
+2 : outra : 0.0 : 0 : 1 : 0.0
+3 : mais uma : 0.0 : 0 : 1 : 0.0
+4 : dasdas : 0.0 : 0 : 0 : 0.0
+5 : Equipe outra : 0.0 : 0 : 1 : 0.0
+6 : doiasdasiod : 0.0 : 0 : 1 : 0.0
+7 : outra equipe : 0.0 : 0 : 0 : 0.0
