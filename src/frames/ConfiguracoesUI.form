@@ -464,16 +464,16 @@
                           <Component id="primeiraBateriaTrechos_cfg" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="labelRelatorio4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="segundaBateriaTrechos_cfg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelRelatorio4" min="-2" max="-2" attributes="0"/>
+                          <Component id="terceiraBateriaTrechos_cfg" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="labelTempo4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="terceiraBateriaTrechos_cfg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="segundaBateriaTrechos_cfg" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="labelCheckPoint4" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="finalTrechos_cfg" alignment="3" min="-2" max="-2" attributes="0"/>

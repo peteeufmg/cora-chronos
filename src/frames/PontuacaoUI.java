@@ -18,7 +18,7 @@ import java.util.List;
 
 public class PontuacaoUI extends javax.swing.JFrame {
 
- private List<Equipe> listaEquipes;
+    private List<Equipe> listaEquipes;
     private static MonitorSerialUI monitorSerial = new MonitorSerialUI();
     
     public PontuacaoUI() {

@@ -1,5 +1,0 @@
----------------------------------------------------
-Lembrar de apagar os arquivos testes gerados na pasta backup de baterias antes do inicio do primeiro de competição
----------------------------------------------------
- - Os arquivos listando as baterias sorteadas estão organizadas a partir da data em que foram gerados.
-Os números presentes no nome do arquivo indicam data e hora em que foram gerados.
