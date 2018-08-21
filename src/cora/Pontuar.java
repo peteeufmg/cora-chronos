@@ -20,32 +20,22 @@ public class Pontuar implements interfaces.IPontuar {
         
         if (bateria == Bateria.FINAL.getValue() && equipe.isClassificada() && !sprint){               
             fator_checkpoint = Fator.CHECKPOINT_FINAL.getValue();
-            fator_tempo = Fator.TEMPO_FINAL.getValue();
-            fator_completar = Fator.COMPLETAR_FINAL.getValue();
-            fator_relatorio = Fator.RELATORIO_FINAL.getValue();
-            fator_calouro = Fator.CALOURO_FINAL.getValue();
             
             if(equipe.getCompletou(Bateria.FINAL.getValue())){
                 bateriasCompletas = 1;
             }
             
             trechos = Parametro.getTrechos(Bateria.FINAL.getValue());
+            pontosPorTrecho = (double) fator_checkpoint/trechos;
             for(int trecho_aux = 0; trecho_aux < trechos; trecho_aux++){
                 tempoTrecho = equipe.getTempoTrecho(bateria, trecho_aux);
                 melhorTempo = Tempo.getMelhorTempo(bateria, trecho_aux);
                 
                 if(Parametro.PENALIDADE.getValue() != tempoTrecho){
-                        media += (melhorTempo/tempoTrecho);
-                        trechosCompletos++;
+                        media += pontosPorTrecho;
                 }
-                
             }
-            media /= trechos;
-            
-            trechosCompletos /= Parametro.getTrechos(Bateria.FINAL.getValue());
-            
-            double total = pontuacao(equipe, media, bateriasCompletas, trechosCompletos, fator_checkpoint, fator_tempo, fator_completar, fator_relatorio, fator_calouro);
-            equipe.setFinalPontos(total);
+            equipe.setFinalPontos(media);
         }
         else if(bateria == Bateria.CLASSIFICATORIA.getValue() && !sprint){
             fator_checkpoint = Fator.CHECKPOINT_CLASSIFICATORIA.getValue();

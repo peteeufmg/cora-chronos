@@ -11,7 +11,7 @@ final_calouro: 0
 trechos_1Bateria: 3
 trechos_2Bateria: 3
 trechos_3Bateria: 5
-trechos_final: 9
+trechos_final: 3
 número_máximo_equipes: 25
 número_tentativas_classificatoria: 2
 número_tentativas_final: 4
@@ -23,5 +23,5 @@ distância_sprint: 243
 O_1Bateria: 0_1_2_9
 O_2Bateria: 0_1_2_9
 O_3Bateria: 0_1_2_3_4_9
-O_Final: 0_0_0_0_0_0_0_0_0_0
-O_5Bateria: 0_0
+O_Final: 0_1_2_9
+O_5Bateria: 0_9
